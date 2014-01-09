@@ -1,0 +1,35 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:purchase.print.warning,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "model:ir.action,name:print_report_purchase"
+msgid "Purchase"
+msgstr "Compra"
+
+msgctxt "model:purchase.print.warning,name:"
+msgid "Print Purchase Report Warning"
+msgstr "Aviso al imprimir compra"
+
+msgctxt "view:purchase.print.warning:"
+msgid "Print Purchase"
+msgstr "Imprimir compra"
+
+msgctxt "view:purchase.print.warning:"
+msgid "The purchases will be sent directly to the printer."
+msgstr "Las compras se enviarán directamente a la impresora."
+
+msgctxt "view:purchase.print.warning:"
+msgid "You have selected more than one purchase to print."
+msgstr "Ha seleccionado más de una compra a imprimir."
+
+msgctxt "wizard_button:purchase.print,warning,end:"
+msgid "Cancel"
+msgstr "Cancela"
+
+msgctxt "wizard_button:purchase.print,warning,print_:"
+msgid "Print"
+msgstr "Imprimir"

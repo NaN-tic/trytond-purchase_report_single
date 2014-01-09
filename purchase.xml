@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+     copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="print_warning_view_form">
+            <field name="model">purchase.print.warning</field>
+            <field name="type">form</field>
+            <field name="name">print_warning_form</field>
+        </record>
+
+        <record model="ir.action.wizard" id="print_report_purchase">
+            <field name="name">Purchase</field>
+            <field name="wiz_name">purchase.print</field>
+            <field name="model">purchase.purchase</field>
+        </record>
+        <record model="ir.action.keyword"
+            id="purchase.report_purchase_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">purchase.purchase,-1</field>
+            <field name="action" ref="print_report_purchase"/>
+        </record>
+    </data>
+</tryton>
